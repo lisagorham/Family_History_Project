@@ -12,3 +12,15 @@ This document is all of the MFQ analyses with family history.
 
 #equivalence testing
 This document is all of the equivalence tests. 
+
+# Notebooks contains python code for fitting models and running cross validated predicitons
+
+Use conda to create the environment:
+
+```
+conda create -c ejolly -c conda-forge -p ./env python pandas numpy scipy pymer4 matplotlib seaborn jupyter notebook pymer4=0.7.3
+# activate the conda environment
+conda activate ./env
+```
+
+Then you can use jupyter notebook to run the notebook in the notebook directory. The data directory contains cross-validated subject level predictions for each of the weeks of depression models and the mfq model. 
