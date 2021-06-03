@@ -1,17 +1,14 @@
 ## Family_History_Project
 This is all of the code for the family history interview project. 
 
-#Master Family History Code
-This document takes all of the raw data from SDQ and translates it into usable variables (i.e. if fixes the formatting of the family tree and matches each family member with their diagnoses so that you can create summary variables.
-
 #Weeks of depression FHI Code
-This document is all of the analyses for analyzing the relationship between family history and weeks of depression.
+This document has the demographic analyses and linear regressions for the weeks of depression analyses described in both the main paper and the supplement.
 
 #Analysis Number 2 MFQ Code
-This document is all of the MFQ analyses with family history.
+This document has the demographic analyses and LMEs for the MFQ analyses described in both the main paper and the supplement.
 
-#equivalence testing
-This document is all of the equivalence tests. 
+#data and notebooks folders 
+Have the rest of the code and data used for the analyses. 
 
 # Notebooks contains python code for fitting models and running cross validated predicitons
 
