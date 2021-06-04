@@ -15,7 +15,7 @@ Have the rest of the code and data used for the analyses.
 Use conda to create the environment:
 
 ```
-conda create -c ejolly -c conda-forge -p ./env python pandas numpy scipy pymer4 matplotlib seaborn jupyter notebook pymer4=0.7.3
+conda create -c ejolly -c conda-forge -p ./env python pandas=1.1.5 numpy scipy pymer4 matplotlib seaborn jupyter notebook pymer4=0.7.3 statsmodels scikit-learn  
 # activate the conda environment
 conda activate ./env
 ```
