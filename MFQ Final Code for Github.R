@@ -13,7 +13,9 @@ library(writexl)
 library(lme4)
 library(nlme)
 
-MFQDatabase <- read_xlsx("W:/string-mbd/RA Instruction Manuals/Lisa Gorham/Projects/Family History Interview/MFQAnalysesDatabase.xlsx")
+MFQDatabase <- read_xlsx("W:/string-mbd/RA Instruction Manuals/Lily Eisner/Research/FH/Lisa Files/Family History Interview/FINALMFQDATABASEFORPAPER.xlsx")
+#If you were loading in the PII free dataset, use the following line of code instead:
+#MFQDatabase <- read_xlsx("./data/PII Free MFQ Dataset.xlsx" )
 
 #remove the outlier (900 days between pair of visits)
 FinalDatabase <- MFQDatabase %>% filter(SDAN != 23501)
@@ -80,7 +82,7 @@ BaselineMFQ <- lme(s_mfq_tot ~ antidepressants + TimeBetween*BaselineMFQScore + 
 summary(BaselineMFQ)
 
 #Model 6
-BaselineMFQFH <- lme(s_mfq_tot ~ antidepressants + TimeBetween*BaselineMFQScore + dep_immed + dep_immed:TimeBetween + InpatientDuring + PreviousAge + SEX +  + OtherMeds + postpandemic, random = (~TimeBetween | SDAN), data = total)
+BaselineMFQFH <- lme(s_mfq_tot ~ antidepressants + TimeBetween*BaselineMFQScore + dep_immed + dep_immed:TimeBetween + InpatientDuring + PreviousAge + SEX + OtherMeds + postpandemic, random = (~TimeBetween | SDAN), data = total)
 summary(BaselineMFQFH)
 
 #Model 7
