@@ -12,7 +12,9 @@ library(tidyr)
 library(gapminder)
 library(writexl)
 
-dataset3 <- read_xlsx("W:/string-mbd/RA Instruction Manuals/Lisa Gorham/Projects/Family History Interview/DatasetforTest1.xlsx")
+dataset3 <- read_xlsx("W:/string-mbd/RA Instruction Manuals/Lily Eisner/Research/FH/Lisa Files/Family History Interview/FINALWODDATASETFORPAPER.xlsx" )
+#If you were loading in the PII free dataset, use the following line of code instead:
+#dataset3 <- read_xlsx("./data/PII Free WOD Dataset.xlsx" )
 
 #Demographic Information
 mean(dataset3$AgeatV1)
@@ -68,7 +70,9 @@ summary(familyhistoryonly)
 
 
 #92 person dataset for supplmental analyses 
-largerdf <- read.csv("W:/string-mbd/RA Instruction Manuals/Lisa Gorham/Projects/Family History Interview/WeeksofDepression5.24.2021reduced.csv")
+largerdf <- read.csv("W:/string-mbd/RA Instruction Manuals/Lily Eisner/Research/FH/Lisa Files/Family History Interview/WeeksofDepression5.24.2021reduced.csv")
+#If you were loading in the PII free dataset, use the following line of code instead:
+#largerdf <- read_xlsx("./data/PII Free Larger WOD Dataset for Supplement.xlsx" )
 
 #Demographic Information
 mean(largerdf$AgeatV1)
