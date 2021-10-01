@@ -20,4 +20,25 @@ conda create -c ejolly -c conda-forge -p ./env python pandas=1.1.5 numpy scipy p
 conda activate ./env
 ```
 
-Then you can use jupyter notebook to run the notebook in the notebook directory. The data directory contains cross-validated subject level predictions for each of the weeks of depression models and the mfq model. 
+Then you can use jupyter notebook to run the notebooks in the notebook directory. The data directory contains cross-validated subject level predictions for each of the weeks of depression models and the mfq model. 
+
+
+In addition you will need to use r to install simr if you would like to run the mfq power analysis notebooks.
+
+Here is the relationship between notebooks and figures/analyses in the paper:
+* get_cv_predictions.ipynb
+    * Figure 1&2, Table S1-S5, Table S7-S19, Supplemental Figures FigS1-S6 & FigS16
+* Eval_power_mfq.ipynb
+    * Supplemental Materials, Power Analysis for MFQ; Supplemental Figure FigS14
+* Eval_power_weeks.ipynb
+    * Supplemental Materials, Power Analysis for Weeks of Depression; Supplemental Figure FigS15
+* get_cv_predictions_mfq_dep_immed_dx.ipynb
+    * Supplemental Materials, Sensitivity Analyses (use only diagnosis of depression); Supplemental Figure FigS8
+* get_cv_predictions_mfq_anx_immed_dx.ipynb
+    * Supplemental Materials, Sensitivity Analyses (use anxiety instead of depresssion); Supplemental Figure FigS10
+* get_cv_predictions_mfqNOINPATIENT.ipynb
+    * Supplemental Materials, Sensitivity Analyses (exclude all inpatients); Supplemental Figure FigS12
+* get_cv_predictions_try_elasticnet.ipynb, get_cv_predictions_try_extratrees.ipynb, get_cv_predictions_try_mfqsingle.ipynb, compare_approaches.ipynb
+    * Supplemental Materials, Sensitivity Analyses (comparison of different regression approaches); Supplemental Figure FigS13
+* chance_lda_performance.ipynb
+    * Supplemental Materials, Sensitivity Analyses (LDA chance performance)
