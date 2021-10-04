@@ -1,25 +1,25 @@
-## Family_History_Project
+# Family_History_Project
 This is all of the code for the family history interview project. 
 
-# Weeks of Depression Final Code for Github
+## Weeks of Depression Final Code for Github
 This document has the demographic analyses and linear regressions for the weeks of depression analyses described in both the main paper and the supplement.
 
-# MFQ Final Code for Github
+## MFQ Final Code for Github
 This document has the demographic analyses and LMEs for the MFQ analyses described in both the main paper and the supplement.
 
-# Weeks of Depression Sensitivity Analsyses Final Code
+## Weeks of Depression Sensitivity Analsyses Final Code
 This document has three sensitivity analyses for the Weeks of Depression dataset: using only diagnosis of depression, using anxeity instead of depression, and excluding all inpatients. These analyses are described in the supplement.
 
-# MFQ Sensitivity Analsyses Final Code
+## MFQ Sensitivity Analsyses Final Code
 This document has three sensitivity analyses for the MFQ dataset: using only diagnosis of depression, using anxeity instead of depression, and excluding all inpatients. These analyses are described in the supplement.
 
-# MFQ Linear Discriminant Analysis Final Code
+## MFQ Linear Discriminant Analysis Final Code
 This document has the linear discriminant analysis using the MFQ data described in the supplement.
 
 # data and notebooks folders 
 Have the rest of the code and data used for the analyses. 
 
-# Notebooks contains python code for fitting models and running cross validated predicitons
+## Notebooks contains python code for fitting models and running cross validated predicitons
 
 Use conda to create the environment:
 
