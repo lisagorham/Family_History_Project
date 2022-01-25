@@ -1,5 +1,5 @@
 # Family_History_Project
-This is all of the code for the family history interview project. 
+This is all of the code for the family history interview project, now published at [The Journal of Child Psychology and Psychiatry](https://acamh.onlinelibrary.wiley.com/doi/full/10.1111/jcpp.13547).
 
 ## Weeks of Depression Final Code for Github
 This document has the demographic analyses and linear regressions for the weeks of depression analyses described in both the main paper and the supplement.
